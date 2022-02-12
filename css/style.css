@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background: #24252A; */
+}
+
+li,
+a,
+button {
+    font-weight: 500;
+    font-size: 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+    margin-top: 0%;
+    background: #24252A;
+}
+
+.logo {
+    height: 40px;
+}
+
+
+/*using order function to change location order */
+
+.logo {
+    cursor: pointer;
+    order: 3;
+}
+
+nav {
+    order: 1;
+}
+
+
+/*.search {
+	order: 2;
+}*/
+
+.nav_items {
+    list-style: none;
+}
+
+.nav_items li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_items li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_items li a:hover {
+    text-decoration: underline;
+    color: #0088a9;
+}
+
+button {
+    padding: 6px 20px;
+    background-color: rgba(0, 136, 169, 1);
+    border: 0 1px 1px solid;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+
+/* Section CSS Effect  */
+
+
+/* Section Css End  */
+
+
+/* Footer Design Css  */
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    background: #07080a;
+}
+
+.main-content {
+    display: flex;
+}
+
+h2,
+p,
+h5 {
+    color: #85c9c9;
+}
+
+.main-content .box {
+    flex-basis: 50%;
+    padding: 10px 20px;
+}
+
+.box h2 h5 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #08c8f8;
+}
+
+span {
+    color: rgb(228, 13, 174);
+    font-size: 2.125rem;
+}
+
+i {
+    color: rgb(12, 28, 245);
+}
+
+.box .content {
+    margin: 20px 0 0 0;
+}
+
+.left .content p {
+    text-align: justify;
+}
+
+.social {
+    display: flex;
+}
+
+.left .content .social {
+    margin: 20px 0 0 0;
+}
+
+.left .content .social a {
+    padding: 0 2px;
+}
+
+.left .content .social a span {
+    height: 40px;
+    width: 40px;
+    background: #a8a3a3;
+    line-height: 30px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.left .content .social a span:hover {
+    background: #04f010;
+}
