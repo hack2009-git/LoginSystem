@@ -8,7 +8,7 @@ if (isset($_SESSION['id']) && isset($_SESSION['user_name'])) {
 <html>
 <head>
 	<title>HOME</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 	
       <!-- Font Awesome CND  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
